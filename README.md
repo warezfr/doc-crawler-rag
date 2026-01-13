@@ -2,7 +2,19 @@
 
 A powerful, self-hosted web crawler designed to ingest documentation into LLM pipelines (like AnythingLLM). Built with Python, Streamlit, and Trafilatura.
 
-![Dashboard Screenshot](https://via.placeholder.com/800x400.png?text=Crawler+Dashboard+Preview)
+NEW CRAWL
+
+<img width="2460" height="590" alt="image" src="https://github.com/user-attachments/assets/3fc3494f-ef72-4240-81fa-3fc942c4e745" />
+
+CRAWL STATUS
+
+<img width="1319" height="693" alt="image" src="https://github.com/user-attachments/assets/edf79187-fd2c-4a44-ae06-35def4964d31" />
+
+CRAWL HISTORY AND DOWNLOAD 
+
+<img width="2139" height="815" alt="image" src="https://github.com/user-attachments/assets/7d5311cf-b2be-49e9-bf3e-132ded0847cf" />
+
+
 
 ## ✨ Features
 
