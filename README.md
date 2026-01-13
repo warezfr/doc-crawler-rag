@@ -28,7 +28,7 @@ CRAWL HISTORY AND DOWNLOAD
 
 ### 1. Clone & Configure
 ```bash
-git clone https://github.com/your-username/doc-crawler-rag.git
+https://github.com/warezfr/doc-crawler-rag.git
 cd doc-crawler-rag
 ```
 
