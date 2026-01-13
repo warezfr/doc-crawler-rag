@@ -1,4 +1,4 @@
-# 🕷️ Advanced Doc Crawler for RAG
+# 🕷️ Advanced Doc Crawler for RAG - AnythingLLM Optimized
 
 A powerful, self-hosted web crawler designed to ingest documentation into LLM pipelines (like AnythingLLM). Built with Python, Streamlit, and Trafilatura.
 
