@@ -1,4 +1,4 @@
-# 🕷️ Advanced Doc Crawler for RAG - AnythingLLM Optimized
+# 🕷️ Advanced Doc Crawler for RAG - AnythingLLM, NotebookLLM, ... Optimized
 
 **Stop feeding your RAG garbage.**
 
