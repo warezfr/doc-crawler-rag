@@ -1,6 +1,10 @@
 # 🕷️ Advanced Doc Crawler for RAG - AnythingLLM Optimized
 
-A powerful, self-hosted web crawler designed to ingest documentation into LLM pipelines (like AnythingLLM). Built with Python, Streamlit, and Trafilatura.
+**Stop feeding your RAG garbage.**
+
+This is a powerful, self-hosted web crawler designed to ingest documentation into LLM pipelines (like **AnythingLLM**). 
+
+Unlike generic crawlers, it uses `trafilatura` to **strip away navigation bars, ads, and footers**, leaving you with clean, high-quality markdown that LLMs actually understand.
 
 NEW CRAWL
 
@@ -15,6 +19,13 @@ CRAWL HISTORY AND DOWNLOAD
 <img width="2139" height="815" alt="image" src="https://github.com/user-attachments/assets/7d5311cf-b2be-49e9-bf3e-132ded0847cf" />
 
 
+
+## ⚡ Why this crawler?
+
+*   **Clean Data = Better Answers**: Most crawlers dump raw HTML. This one extracts the *article* text automatically.
+*   **Ready for Vector DBs**: Automatically splits large exports into **20MB chunks** (JSON/Markdown) to fit upload limits.
+*   **Self-Hosted & Private**: Runs on your NAS/Server via Docker. Your data stays yours.
+*   **Resilient**: Background threading with persistent SQLite history. Resume or stop crawls at any time.
 
 ## ✨ Features
 
