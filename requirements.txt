@@ -1,0 +1,9 @@
+streamlit==1.37.0
+requests==2.32.3
+beautifulsoup4==4.12.3
+markdownify==0.12.1
+tldextract==5.1.2
+python-dotenv==1.0.1
+urllib3==2.2.3
+pandas==2.2.0
+trafilatura==1.6.3

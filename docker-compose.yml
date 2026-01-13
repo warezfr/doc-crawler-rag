@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  doc_crawler_ui:
+    build: .
+    container_name: doc-crawler-ui
+    ports:
+      - "18510:8501"
+    volumes:
+      - /mnt/disk1/NAS/crawl:/app/data
+      - ./app.py:/app/app.py
+      - ./crawler_engine.py:/app/crawler_engine.py
+      - ./models.py:/app/models.py
+    environment:
+      - ANYTHINGLLM_URL=http://anythingllm:3001/api/v1/document/upload
+      - ANYTHINGLLM_API_KEY=changeme
+      - ANYTHINGLLM_WORKSPACE=default
+    restart: unless-stopped
